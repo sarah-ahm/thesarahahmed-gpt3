@@ -13,9 +13,6 @@ function Home() {
 
       <section className="flex flex-col gap-3">
         <Text variant="h2">Places I've Been, Things I've Done</Text>
-        <Text variant="h3">UX Writing @ Salesforce</Text>
-        <Text variant="h3">Linkedin for Students Concept</Text>
-        <Text variant="h3">UX Design and Research @ Santa Clara University</Text>
       </section>
 
       <section className="flex flex-col gap-3">

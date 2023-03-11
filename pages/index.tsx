@@ -5,15 +5,18 @@ function Home() {
   return (
     <Page className="flex flex-col gap-12">
       <section className="flex flex-col gap-6">
-        <Text variant="h1">OpenAI GPT-3 text model usage example</Text>
+        <Text variant="h1">Sarah Ahmed</Text>
         <Text className="text-zinc-600">
-          In this example, a simple chat bot is implemented using Next.js, API
-          Routes, and OpenAI API.
+          I'm Sarah, a compassion-driven designer, writer, & friend.
         </Text>
       </section>
 
       <section className="flex flex-col gap-3">
-        <Text variant="h2">AI Chat Bot:</Text>
+        <Text variant="h2">Places I've Been, Things I've Done</Text>
+      </section>
+
+      <section className="flex flex-col gap-3">
+        <Text variant="h2">Chat with Moonmoon</Text>
         <div className="lg:w-2/3">
           <Chat />
         </div>
